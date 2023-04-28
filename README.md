@@ -44,4 +44,5 @@ Note: in order to enable ECS managed scaling you need to enable `protect from sc
 In file `iam.tf` we create roles, which will help us to associate EC2 instances to clusters, and other tasks.
 
 In file `alb.tf` we create Application Load Balancer with target groups, security group and listener. 
+Health check
 
